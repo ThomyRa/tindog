@@ -1,0 +1,167 @@
+/*************** TAG STYLES ***************/
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+/* Headings */
+.big-heading {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/*************** IDs STYLES ***************/
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+#features {
+  background-color: #ffffff;
+  position: relative;
+  /* We can remove this z-index since HTML flow will do the trick */
+  z-index: 1;
+}
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+/*************** CLASS STYLES ***************/
+.colored-section {
+  background-color: #ff4c68;
+  color: #ffffff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+.container-fluid {
+  /* padding: 3% 15% 7%; */
+  padding: 7% 15%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+.features-title {
+  font-size: 1.5rem;
+}
+
+.p-features {
+  color: #8f8f8f;
+}
+
+.div-features {
+  padding: 5%;
+}
+
+.icons-features {
+  color: #ef8172;
+}
+
+.icons-features:hover {
+  color: #ff4c68;
+}
+
+.testimonials-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.p-footer {
+  margin-bottom: 0;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+/*************** MEDIA QUERY STYLES ***************/
+@media (max-width: 1020px) {
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
